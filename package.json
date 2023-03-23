@@ -1,0 +1,25 @@
+{
+  "author": "weykon <635883092@qq.com>",
+  "license": "ISC",
+  "description": "",
+  "name": "i-like-tsup",
+  "version": "0.0.1",
+  "devDependencies": {
+    "tsup": "^6.7.0"
+  },
+  "bin": {
+    "tsup-init": "./init.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tsup",
+    "ts-node",
+    "ts run",
+    "complie"
+  ],
+  "dependencies": {
+    "i-like-tsup": "^0.0.1"
+  }
+}
