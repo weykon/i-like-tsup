@@ -3,7 +3,7 @@
   "license": "ISC",
   "description": "",
   "name": "i-like-tsup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "devDependencies": {
     "tsup": "^6.7.0"
   },
@@ -19,7 +19,8 @@
     "ts run",
     "complie"
   ],
-  "dependencies": {
-    "i-like-tsup": "^0.0.1"
+  "dependencies": {},
+  "repository": {
+    "url": "https://github.com/weykon/i-like-tsup"
   }
 }
