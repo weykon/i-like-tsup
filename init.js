@@ -12,6 +12,7 @@ console.log('packagePath', packagePath)
 const packageData = JSON.parse(fs.readFileSync(packagePath, 'utf8'));
 
 // 将你的命令添加到项目的package.json文件的"scripts"属性中
+if (!packageData.scripts) packageData.scripts = [];
 packageData.scripts['dev'] = "tsup-node --watch --onSuccess \"node dist/main.js\"";
 
 // 写回package.json文件

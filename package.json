@@ -3,7 +3,7 @@
   "license": "ISC",
   "description": "",
   "name": "i-like-tsup",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "devDependencies": {},
   "bin": {
     "tsup-init": "./init.js"
